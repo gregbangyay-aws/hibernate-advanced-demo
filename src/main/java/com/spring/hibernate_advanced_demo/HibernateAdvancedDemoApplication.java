@@ -90,7 +90,7 @@ public class HibernateAdvancedDemoApplication {
     
     private void createInstructorWithCourses(AppDao app) {
         // create the instructor and details
-        Instructor ins = new Instructor("Clint", "Baldez", "nigg@example.com");
+        Instructor ins = new Instructor("Clint", "Baldez", "n@example.com");
         InstructorDetail deets = new InstructorDetail("Brainrot", "Instagram reels");
         
         // associate the objects
